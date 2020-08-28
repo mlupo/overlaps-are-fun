@@ -134,7 +134,7 @@ In the new ``||variables:set mySprite||`` block, click on ``||variables:mySprite
 
 In the ``||variables:set pizza||`` block, click on the ``||sprites:Player||`` kind to open the menu of different Sprite kinds. Select ``||sprites:Food||`` as your ``||variables:pizza||`` sprite kind.
 
-![Set sprite kind](/sprite-kind.jpg)
+![Set sprite kind](/images/sprite-kind.jpg)
 
 ## Step 10
 
