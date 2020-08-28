@@ -128,7 +128,7 @@ mySprite2 = sprites.create(img`
 
 ## Step 7
 
-In the ``||variables:set mySprite2||`` block, click on ``||variables:mySprite2||`` to open the menu, and select ``Rename variable...`` Type in ``pizza`` as the new sprite name and click **Ok**.
+In the new ``||variables:set mySprite||`` block, click on ``||variables:mySprite||`` to open the menu, and select ``Rename variable...`` Type in ``pizza`` as the new sprite name and click **Ok**.
 
 ## Step 8
 
