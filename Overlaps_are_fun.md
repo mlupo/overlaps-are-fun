@@ -134,7 +134,7 @@ In the ``||variables:set mySprite2||`` block, click on ``||variables:mySprite2||
 
 In the ``||variables:set pizza||`` block, click on the ``||sprites:Player||`` kind to open the menu of different Sprite kinds. Select ``||sprites:Food||`` as your ``||variables:pizza||`` sprite kind.
 
-![Set sprite kind](/static/tutorials/chase-the-pizza/sprite-kind.jpg)
+![Set sprite kind](/sprite-kind.jpg)
 
 ## Step 9
 
@@ -155,7 +155,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherS
 
 In the ``||sprites:on sprite overlaps otherSprite||`` block, click on the second ``||sprites:Player||`` kind after ``||variables:otherSprite||`` to open the menu. Select ``||sprites:Food||`` as its kind.
 
-![Overlap sprite kind](/static/tutorials/chase-the-pizza/overlap-kind-sprite.png)
+![Overlap sprite kind](/overlap-kind-sprite.png)
 
 ## Step 12
 
@@ -185,7 +185,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 
 In the ``||sprites:set mySprite position||`` block, click on the ``||variables:mySprite||`` variable to open the menu, and select your ``||variables:pizza||`` sprite.
 
-![Change mySprite to pizza](/static/tutorials/chase-the-pizza/sprite-position-rename.png)
+![Change mySprite to pizza](/sprite-position-rename.png)
 
 ## Step 15
 
