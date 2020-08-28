@@ -8,7 +8,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "Overlaps_are_fun.md"
+        "Overlaps_are_fun.md",
+        "_locales/en-CA/Overlaps_are_fun.md"
     ],
     "testFiles": [
         "test.ts"

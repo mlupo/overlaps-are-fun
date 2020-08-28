@@ -134,6 +134,8 @@ In the new ``||variables:set mySprite||`` block, click on ``||variables:mySprite
 
 In the ``||variables:set pizza||`` block, click on the ``||sprites:Player||`` kind to open the menu of different Sprite kinds. Select ``||sprites:Food||`` as your ``||variables:pizza||`` sprite kind.
 
+![Set sprite kind](/images/sprite-kind.jpg)
+
 ## Step 10
 
 Click on the grey box for ``||variables:set pizza||`` and then select the **Gallery** view. Scroll to find the image of a small pizza (or any other image you like!) and select it to load into the image editor.
@@ -152,6 +154,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherS
 ## Step 12
 
 In the ``||sprites:on sprite overlaps otherSprite||`` block, click on the second ``||sprites:Player||`` kind after ``||variables:otherSprite||`` to open the menu. Select ``||sprites:Food||`` as its kind.
+
+![Overlap sprite kind](/overlap-kind-sprite.png)
 
 ## Step 13
 
@@ -180,6 +184,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 ## Step 15
 
 In the ``||sprites:set mySprite position||`` block, click on the ``||variables:mySprite||`` variable to open the menu, and select your ``||variables:pizza||`` sprite.
+
+![Change mySprite to pizza](/sprite-position-rename.png)
 
 ## Step 16
 
