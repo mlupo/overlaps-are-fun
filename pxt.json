@@ -7,7 +7,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "Overlaps_are_fun.md"
     ],
     "testFiles": [
         "test.ts"
@@ -18,5 +19,6 @@
     },
     "supportedTargets": [
         "arcade"
-    ]
+    ],
+    "preferredEditor": "tsprj"
 }
