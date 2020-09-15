@@ -1,4 +1,4 @@
-# Overlaps_are_fun
+# Overlaps are fun
 
 ## Introduction @unplugged
 
@@ -20,6 +20,8 @@ In the ``||scene:set background color||`` block, click on the grey color oval to
 ## Step 4
 
 Open the ``||sprites:Sprites||`` Toolbox drawer and drag the first block, ``||variables:set mySprite||`` into the ``||loops:on start|`` block on your Workspace. This will create a new ``||sprites:Player||`` character for your game.
+
+**Don't forget to re-name the mySprite variable, and give your character a good name!**
 
 ```blocks
 let sally: Sprite = null
@@ -47,7 +49,10 @@ sally = sprites.create(img`
 
 ## Step 5
 
-Draw your ``||sprites:Player||`` character by clicking on the grey square in the ``||variables:set mySprite||`` block to open the Sprite Editor. Use the color palette and design tools to draw an image on the canvas. Click **Done** when you are finished.
+Draw your ``||sprites:Player||`` character by clicking on the grey square in the ``||variables:set mySprite||`` block to open the Sprite Editor. Use the color palette and design tools to draw an image on the canvas. Or, just choose one from the Gallery if you like!  
+
+Click **Done** when you are finished.
+
 
 ## Step 6
 
@@ -80,11 +85,11 @@ controller.moveSprite(sally)
 
 ## Step 7
 
-Open the ``||sprites:Sprites||`` Toolbox drawer and drag another ``||variables:set mySprite2||`` block into the ``||loops:on start||`` block on your Workspace. This will be the **pizza** sprite in our game.
+Open the ``||sprites:Sprites||`` Toolbox drawer and drag another ``||variables:set mySprite||`` block into the ``||loops:on start||`` block on your Workspace. This will be the **pizza** sprite in our game.
 
 ```blocks
 let sally: Sprite = null
-let mySprite2: Sprite = null
+let mySprite: Sprite = null
 scene.setBackgroundColor(7)
 sally = sprites.create(img`
     . . . . . . 5 . 5 . . . . . . . 
@@ -130,32 +135,32 @@ mySprite2 = sprites.create(img`
 
 In the new ``||variables:set mySprite||`` block, click on ``||variables:mySprite||`` to open the menu, and select ``Rename variable...`` Type in ``pizza`` as the new sprite name and click **Ok**.
 
-![Set sprite kind](https://raw.githubusercontent.com/mlupo/overlaps-are-fun/master/sprite-kind.jpg)
-
-## Step 9
+## Step 9 @fullscreen
 
 In the ``||variables:set pizza||`` block, click on the ``||sprites:Player||`` kind to open the menu of different Sprite kinds. Select ``||sprites:Food||`` as your ``||variables:pizza||`` sprite kind.
+
+![Set sprite kind](https://raw.githubusercontent.com/mlupo/overlaps-are-fun/master/sprite-kind.jpg)
+
 
 ## Step 10
 
 Click on the grey box for ``||variables:set pizza||`` and then select the **Gallery** view. Scroll to find the image of a small pizza (or any other image you like!) and select it to load into the image editor.
 
-## Step 11
+## Step 11 
 
 Open the ``||sprites:Sprites||`` Toolbox drawer and drag the ``||sprites:on sprite overlaps otherSprite||`` block onto your Workspace (you can place this anywhere).
 
 ```blocks
-// @highlight
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-	
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+
 })
 ```
 
-![Overlap sprite kind](https://raw.githubusercontent.com/mlupo/overlaps-are-fun/master/overlap-kind-sprite.png)
-
-## Step 12
+## Step 12 @fullscreen
 
 In the ``||sprites:on sprite overlaps otherSprite||`` block, click on the second ``||sprites:Player||`` kind after ``||variables:otherSprite||`` to open the menu. Select ``||sprites:Food||`` as its kind.
+
+![Overlap sprite kind](https://raw.githubusercontent.com/mlupo/overlaps-are-fun/master/overlap-kind-sprite.png)
 
 ## Step 13
 
@@ -172,8 +177,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 
 Let's set the position for ``||variables:pizza||`` to random locations around the screen. Open the ``||sprites:Sprites||`` Toolbox drawer and drag the ``||sprites:set mySprite position||`` block into the ``||sprites:on sprite overlaps otherSprite||`` block on your Workspace.
 
-![Change mySprite to pizza](https://raw.githubusercontent.com/mlupo/overlaps-are-fun/master/sprite-position-rename.png)
-
 ```blocks
 let mySprite: Sprite = null
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
@@ -186,6 +189,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 ## Step 15
 
 In the ``||sprites:set mySprite position||`` block, click on the ``||variables:mySprite||`` variable to open the menu, and select your ``||variables:pizza||`` sprite.
+
+![Change mySprite to pizza](https://raw.githubusercontent.com/mlupo/overlaps-are-fun/master/sprite-position-rename.png)
 
 ## Step 16
 
