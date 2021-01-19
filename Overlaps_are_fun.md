@@ -1,6 +1,6 @@
 # Overlaps are fun
 
-## Introduction @unplugged
+## Introduction @showdialog
 
 In this tutorial you will create a game with 2 sprites, a ``||sprites:Player||`` sprite and a ``||sprites:Food||`` sprite. The goal of the game is to eat as much pizza as you can before the time runs out! Each time your player catches the pizza, you gain points and the countdown is restarted.
 
@@ -135,7 +135,7 @@ mySprite2 = sprites.create(img`
 
 In the new ``||variables:set mySprite||`` block, click on ``||variables:mySprite||`` to open the menu, and select ``Rename variable...`` Type in ``pizza`` as the new sprite name and click **Ok**.
 
-## Step 9 @fullscreen
+## Step 9 @showhint
 
 In the ``||variables:set pizza||`` block, click on the ``||sprites:Player||`` kind to open the menu of different Sprite kinds. Select ``||sprites:Food||`` as your ``||variables:pizza||`` sprite kind.
 
@@ -156,7 +156,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 ```
 
-## Step 12 @fullscreen
+## Step 12 @showhint
 
 In the ``||sprites:on sprite overlaps otherSprite||`` block, click on the second ``||sprites:Player||`` kind after ``||variables:otherSprite||`` to open the menu. Select ``||sprites:Food||`` as its kind.
 
