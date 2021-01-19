@@ -1,6 +1,6 @@
 # Overlaps are fun
 
-## Introduction @unplugged
+## Introduction @showdialog
 
 In this tutorial you will create a game with 2 sprites, a ``||sprites:Player||`` sprite and a ``||sprites:Food||`` sprite. The goal of the game is to eat as much pizza as you can before the time runs out! Each time your player catches the pizza, you gain points and the countdown is restarted.
 
